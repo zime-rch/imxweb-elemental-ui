@@ -1,0 +1,61 @@
+/*  
+
+    RCH_Customize_elemental-ui.scss
+
+    Customize Elemental UI of One Identity Manager Api Server Applications
+
+    Description
+    
+    This File RCH_Customize_elemental-ui.scss is only for documentation purpous and helps
+    in VS Code to make use of the Color Picker Tool.
+
+    Author: https://github.com/zime-rch
+
+*/
+
+// Color Shema
+
+.main_color_customization {
+
+  --Background: #0a96d1; --Ersetzen_mit: #333333;
+
+  // Other Colors
+
+  --Light_Selected: #e36a00; --Ersetzen_mit: #9b8453;
+  --Dark_Selected: #edbe8e; --Ersetzen_mit: #9b8453;
+  --Warnfarbe: #db2534; --Ersetzen_mit: #b8312e;
+
+}
+
+// Color Replacement Documentation:
+
+._eui_palette.scss {
+
+--search: #f2fcff; --replace: #dfe4e6;
+--search: #cbe8f2; --replace: #c4cacc;
+--search: #8acbe3; --replace: #919799;
+--search: #0a96d1; --replace: #333333;
+--search: #016b91; --replace: #2f3233;
+--search: #00384d; --replace: #16191A;
+
+}
+
+._palette.scss {
+
+--search: #e1f5fb; --replace: #e7e7e7;
+--search: #b4e6f4; --replace: #c2c2c2;
+--search: #82d5ed; --replace: #999999;
+--search: #50c4e6; --replace: #707070;
+--search: #2bb7e0; --replace: #525252;
+--search: #05aadb; --replace: #333333;
+--search: #04a3d7; --replace: #2e2e2e;
+--search: #0499d2; --replace: #272727;
+--search: #0390cd; --replace: #202020;
+--search: #017fc4; --replace: #141414;
+--search: #ecf8ff; --replace: #dfe4e6;
+--search: #b9e3ff; --replace: #c4cacc;
+--search: #86cfff; --replace: #919799;
+--search: #6dc5ff; --replace: #707070;
+
+}
+
